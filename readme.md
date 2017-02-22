@@ -29,6 +29,7 @@ adjust mailer/config/mail.php
 ```
 
 create contact form(contact.blade.php)
+
 https://github.com/ifubar/mailer/blob/master/resources/views/contact.blade.php
 
 mailer/resources/views/contact.blade.php
@@ -54,9 +55,11 @@ Route::post('/contact', ['uses' => 'MailController@send']);
 ```php artisan make:controller MailController```
 
 MailController: add method send
+
 https://github.com/ifubar/mailer/blob/master/app/Http/Controllers/MailController.php
 
 make email template (mailer/resources/views/email.blade.php)
+
 https://github.com/ifubar/mailer/blob/master/resources/views/email.blade.php
 
 ```php artisan serve```
