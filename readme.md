@@ -9,10 +9,10 @@ pass params to .env
 
 ```
 MAIL_DRIVER=smtp
-MAIL_HOST=smtp.ngs.ru
+MAIL_HOST=smtp.gmail.com
 MAIL_PORT=465
-MAIL_USERNAME=oppamailertest@ngs.ru
-MAIL_PASSWORD=uahahahaha
+MAIL_USERNAME=your-gmail-login@gmail.com
+MAIL_PASSWORD=your-gmail-password
 MAIL_ENCRYPTION=ssl
 ```
 
@@ -24,7 +24,7 @@ adjust mailer/config/mail.php
     ],
     
     'admins' => [
-        'your@mail.acc' // pass recievers email
+        'elliotr@gmail.com' // pass recievers email
     ],
 ```
 
