@@ -24,7 +24,7 @@ adjust mailer/config/mail.php
     ],
     
     'admins' => [
-        'contactstestadmin@mailforspam.com'
+        'your@mail.acc' // pass recievers email
     ],
 ```
 

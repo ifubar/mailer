@@ -61,7 +61,7 @@ return [
     ],
 
     'admins' => [
-        'zamyatin@magora-systems.com'
+        'your@mail.acc'
     ],
 
     /*
