@@ -21,5 +21,8 @@ class MailController extends Controller
             $m->from(config('mail.from.address'), config('mail.from.name'));
             $m->to(config('mail.admins'))->subject($request->get('subject'));
         });
+
+        //success
+        return redirect('/');
     }
 }
